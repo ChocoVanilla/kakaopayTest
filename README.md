@@ -16,5 +16,11 @@ CREATE TABLE PAYMENT (
 예외처리에서 ExceptionHandler는 시간관계상 작성하지 않음
 입력검정은 404 Bad Request로 출력
 
-필수구현 API : 완성,
-선택구현 API : 미완성
+필수구현 API : 완성, 선택구현 API : 미완성
+1. 결제 API : POST방식
+2. 취소 API : POST방식
+3. 조회/전제조회 API : GET방식
+카드정보 암호화 방식 : AES
+- 복호화는 결제 시 사용하지만, 복호화는 구현 후 사용개소가 없음. 테스트 정상출력 확인.
+
+

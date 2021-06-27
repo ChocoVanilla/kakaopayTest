@@ -1,2 +1,14 @@
 # kakaopayTest
-카카오페이 코딩테스트 임시리포지토리
+카카오페이 코딩테스트 리포지토리
+
+# 테이블 정의
+DROP TABLE PAYMENT;
+
+CREATE TABLE PAYMENT (
+    PAYMENT_ID VARCHAR(20), 
+    PAYMENT_INFO VARCHAR(450) NOT NULL,
+    CONSTRAINT PAYMENT_ID_KEY PRIMARY KEY(PAYMENT_ID)
+);
+
+필수구현 API : 완성
+선택구현 API : 미완성

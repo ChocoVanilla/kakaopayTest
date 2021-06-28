@@ -14,7 +14,7 @@ CREATE TABLE PAYMENT (
 
 기본적인 동작![img](https://user-images.githubusercontent.com/48255013/123556147-859aab00-d7c4-11eb-8f19-1a235fa0ee3d.png)
 예외처리에서 ExceptionHandler는 시간관계상 작성하지 않음
-입력검정은 404 Bad Request로 출력
+입력검정은 400 Bad Request로 출력
 
 필수구현 API : 완성, 선택구현 API : 미완성
 1. 결제 API : POST방식
